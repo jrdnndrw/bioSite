@@ -1,0 +1,26 @@
+#title {
+    text-align: center;
+    font-family: 'Montserrat', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#images {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5px;
+}
+
+.image-title {
+    text-align: center;
+    font-family: 'Montserrat', Verdana, Arial, sans-serif;
+    font-weight: 300;
+}
+
