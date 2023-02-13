@@ -1,26 +1,60 @@
-#title {
-    text-align: center;
-    font-family: 'Montserrat', Verdana, Arial, sans-serif;
-    font-weight: 400;
+body {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
 }
 
-#images {
-    margin-top: 10%;
-    display: grid;
-    grid-template-columns: auto auto auto;
+section {
+  display: flex;
 }
 
-.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 5px;
+nav {
+  flex: 1;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+}
+
+#container {
+  margin-top: 2%;
+  margin-inline: 5%;
+  padding: 10px;
+}
+
+#page-title {
+  text-align: center;
+  font-weight: 400;
 }
 
 .image-title {
-    text-align: center;
-    font-family: 'Montserrat', Verdana, Arial, sans-serif;
-    font-weight: 300;
+  text-align: center;
+  font-weight: 300;
 }
 
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.about-image {
+  float: right;
+  max-width: 30%;
+  height: auto;
+  border-radius: 15px;
+  margin: 5px;
+}
