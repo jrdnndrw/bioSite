@@ -11,13 +11,21 @@ nav {
   overflow: hidden;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
 }
 
 nav a {
-  float: left;
+  float: right;
   display: block;
   text-align: center;
   padding: 14px 16px;
