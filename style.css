@@ -100,12 +100,17 @@ img {
   margin: 5px;
 }
 
-.about-image {
-  float: right;
-  max-width: 30%;
+#about-image {
+  object-fit: cover;
+  max-width: 100%;
   height: auto;
   border-radius: 15px;
   margin: 5px;
+}
+
+#about-text {
+  padding-inline: 20px;
+  font-size: larger;
 }
 
 .hobbies-image {
